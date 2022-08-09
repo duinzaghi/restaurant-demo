@@ -24,7 +24,6 @@ $danger     :rgba(239, 68, 68,1);
 $success    : rgba(16, 185, 129,1);
 $dark       : rgba(55, 65, 81,1);
 $info       :   rgba(147, 197, 253,1);
-$bg-transparent : rgba(26, 26, 26, 0.8);
 
 // Colors
 $colors: (
@@ -40,6 +39,8 @@ $colors: (
 $bg-dark: #1a233a;
 $bg-dark-card: #272e48;
 $bg-dark-topbar: #283147;
+$bg : rgb(26, 26, 26);
+$bg-transparent : rgba(26, 26, 26, 0.2);
 
 // Table
 $table-sm-padding: .2rem;

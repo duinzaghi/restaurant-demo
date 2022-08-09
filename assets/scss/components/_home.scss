@@ -1,0 +1,11 @@
+html{
+  scroll-behavior: smooth;
+}
+.content__page{
+  background: url("../../assets/images/background1.png");
+  background-size: cover;
+  background-position: center;
+}
+.root{
+  background-color: $bg;
+}

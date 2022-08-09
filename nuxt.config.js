@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'restaurant',
+    title: 'Restaurant',
     htmlAttrs: {
       lang: 'en',
     },
@@ -11,7 +11,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [{ hid: 'icon', rel: 'icon', type: 'image/x-icon', href: '/logo2.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -28,7 +28,9 @@ export default {
   },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [
+
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
