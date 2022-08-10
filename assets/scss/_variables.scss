@@ -17,7 +17,7 @@ $sidebar-maximized-width:   270px;
 $sidebar-transition :       all .5s cubic-bezier(0.87, 0, 0.13, 1);
 $sidebar-link-active-bg:  #eaeeff;
 
-$primary    : rgba(99, 102, 241,1);
+$primary    : rgb(255, 184, 0);
 $warning    : rgba(245, 158, 11,1);
 $secondary     : mix(rgb(107, 114, 128), rgb(99, 102, 241), 80%);
 $danger     :rgba(239, 68, 68,1);
@@ -72,3 +72,15 @@ $checkbox-dark-bg: $input-dark-bg;
 $checkbox-dark-border: $input-dark-border;
 
 $modal-dark-bg: $bg-dark-topbar;
+
+//class
+.button{
+  background-color: $primary;
+  padding: 4px 8px;
+  color: #000000;
+  border-radius: 4px;
+  font-weight: normal;
+}
+.font-homeMadeApple{
+  font-family: 'Homemade Apple', cursive;
+}

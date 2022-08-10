@@ -1,5 +1,5 @@
 <template>
-  <div class="header absolute z-50 w-full">
+  <div id="header" class="header absolute z-50 w-full">
     <div class="container w-11/12 my-0 mx-auto">
       <header class="flex justify-between items-center text-primary">
         <div class="logo">
@@ -7,7 +7,7 @@
         </div>
         <div class="menu_list">
           <ul class="menu_list_item">
-              <li v-for="(item, index) in menu" :key="index" class="menu__item px-4 py-2">
+              <li v-for="(item, index) in menu" :key="index" class="menu__item px-4 py-2 hover:text-white">
                 <div v-if="!!item.children">
                   <button id="dropdownDefault" data-dropdown-toggle="dropdown" class="capitalize focus:outline-none font-medium rounded-lg text-sm text-center inline-flex items-center" type="button">{{item.name}} <svg class="ml-2 w-4 h-4" aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
                   <!-- Dropdown menu -->
@@ -33,8 +33,9 @@
           </ul>
         </div>
         <div class="box_action">
-          <span class="icon bi-cart text-primary"></span>
-          <button class="btn px-4 px-2 bg-yellow-400 border-solid rounded-lg text-black">Sign up/Log in</button>
+          <span class="icon bi-cart text-primary pr-2"></span>
+          <span class="icon bi-bell text-primary pr-2"></span>
+          <button class="button">Sign up/Log in</button>
         </div>
       </header>
     </div>

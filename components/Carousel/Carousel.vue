@@ -5,28 +5,28 @@
       <div v-show="current===0" class="content_banner text-white absolute">
         <p>DINNING OUT IN SAIGON</p>
         <h1 class="text-7xl font-serif">Come A Casa</h1>
-        <p class="text-primary">Proudly serving dishes that are
-        <span>"homemade from scratch"</span> A Casa is all about sharing the love and nourishment through family recipes.</p>
+        <p class="text-white">Proudly serving dishes that are
+        <span class="font-homeMadeApple text-primary">"homemade from scratch"</span> A Casa is all about sharing the love and nourishment through family recipes.</p>
       </div>
       <div v-show="current===1" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
         <h1 class="text-7xl font-serif">Toast</h1>
-        <p class="text-primary">Toast  is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <p class="text-primary"><span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
       <div v-show="current===2" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
         <h1 class="text-7xl font-serif">Chicken breast</h1>
-        <p class="text-primary">Toast  is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <p class="text-primary"> <span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
       <div v-show="current===3" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
         <h1 class="text-7xl font-serif">Fruit pizza</h1>
-        <p class="text-primary">Fruit Pizza is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <p class="text-primary"><span class="font-homeMadeApple">Fruit Pizza </span>>is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
       <div v-show="current===4" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
         <h1 class="text-7xl font-serif">Toast</h1>
-        <p class="text-primary">Toast  is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <p class="text-primary"><span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
     </div>
   </transition-group>
@@ -38,8 +38,8 @@
   </div>
   <div class="div__linearGreaient w-full absolute bottom-0 flex justify-center items-center" @click="goto">
     <a href="#section-1" class="flex flex-col justify-center items-center">
-      <span class="icon bi-mouse2 text-white text-2xl"></span>
-      <span class="icon bi-chevron-double-down text-white"></span>
+      <span class="icon bi-mouse2 text-white text-2xl transition ease-in-out delay-150 hover:scale-130 duration-200"></span>
+      <span class="icon bi-chevron-double-down text-white transition ease-in-out delay-150 hover:scale-130 duration-150"></span>
     </a>
   </div>
 </div>

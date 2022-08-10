@@ -1,0 +1,10 @@
+input{
+  &.subscribe{
+    &::placeholder{
+      color: $primary;
+    }
+    background-color: #333333;
+    padding: 9px 16px;
+    border-radius: 8px;
+  }
+}
