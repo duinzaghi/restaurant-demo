@@ -4,29 +4,29 @@
     <div v-if="show" :key="current" class="slide" :class="slides[current].className">
       <div v-show="current===0" class="content_banner text-white absolute">
         <p>DINNING OUT IN SAIGON</p>
-        <h1 class="text-7xl font-serif">Come A Casa</h1>
-        <p class="text-white">Proudly serving dishes that are
+        <h1 class="text-4xl md:text-7xl font-serif">Come A Casa</h1>
+        <p class="text-white text-sm"> Proudly serving dishes that are
         <span class="font-homeMadeApple text-primary">"homemade from scratch"</span> A Casa is all about sharing the love and nourishment through family recipes.</p>
       </div>
       <div v-show="current===1" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
-        <h1 class="text-7xl font-serif">Toast</h1>
-        <p class="text-primary"><span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <h1 class="text-4xl md:text-7xl font-serif">Toast</h1>
+        <p class="text-primary text-sm"><span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
       <div v-show="current===2" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
-        <h1 class="text-7xl font-serif">Chicken breast</h1>
-        <p class="text-primary"> <span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <h1 class="text-4xl md:text-7xl font-serif">Chicken breast</h1>
+        <p class="text-primary text-sm"> <span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
       <div v-show="current===3" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
-        <h1 class="text-7xl font-serif">Fruit pizza</h1>
-        <p class="text-primary"><span class="font-homeMadeApple">Fruit Pizza </span>>is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <h1 class="text-4xl md:text-7xl font-serif">Fruit pizza</h1>
+        <p class="text-primary text-sm"><span class="font-homeMadeApple">Fruit Pizza </span>>is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
       <div v-show="current===4" class="content_banner text-white absolute">
         <p>DINNING OUT IN ACASA</p>
-        <h1 class="text-7xl font-serif">Toast</h1>
-        <p class="text-primary"><span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
+        <h1 class="text-4xl md:text-7xl font-serif">Toast</h1>
+        <p class="text-primary text-sm"><span class="font-homeMadeApple">Toast</span> is the ideal absorptive foundation for juicy sauteed mushrooms and eggs</p>
       </div>
     </div>
   </transition-group>

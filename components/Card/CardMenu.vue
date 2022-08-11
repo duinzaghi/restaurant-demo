@@ -11,7 +11,7 @@
         <span class="bi-star-fill"></span>
         <span class="bi-star-half"></span>
       </span>
-      <h4 class="text-white text-2xl font-bold flex justify-between mt-4">{{data.title}}
+      <h4 class="text-white text-xl md:text-2xl font-bold flex justify-between mt-4">{{data.title}}
         <span class="price button text-xl">${{data.price}}</span></h4>
       <p class="text-gray-200 py-4 text-white">{{data.description}}</p>
       <button class="button btn-order">Order Now</button>

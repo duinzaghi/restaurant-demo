@@ -1,6 +1,6 @@
 <template>
   <div id="header" class="header absolute z-50 w-full">
-    <div class="container w-11/12 my-0 mx-auto">
+    <div class="container w-full md:w-11/12 my-0 mx-auto">
       <header class="flex justify-between items-center text-primary">
         <div class="logo">
           <img src="../../assets/images/logo.png" alt="">
@@ -28,14 +28,14 @@
                       </ul>
                   </div>
                 </div>
-                <nuxt-link v-else :to="{path: item.url}" class="capitalize" >{{item.name}}</nuxt-link>
+                <nuxt-link v-else :to="{path: item.url}" class="capitalize text-xs md:text-base" >{{item.name}}</nuxt-link>
               </li>
           </ul>
         </div>
         <div class="box_action">
-          <span class="icon bi-cart text-primary pr-2"></span>
-          <span class="icon bi-bell text-primary pr-2"></span>
-          <button class="button">Sign up/Log in</button>
+          <span class="icon bi-cart text-primary pr-2 hidden md:contents"></span>
+          <span class="icon bi-bell text-primary pr-2 hidden md:contents"></span>
+          <button class="button text-xs md:text-base">Sign up/Log in</button>
         </div>
       </header>
     </div>
@@ -49,11 +49,11 @@ export default {
   data() {
     return {
       menu: [
-        {name: 'home',url: '/home'},
-        {name: 'about us',url: '/home2'},
-        {name: 'menu',url: '/home3', children: [{name: 'cate1', url: '/cate1'}, {name: 'cate2', url: '/cate2'}]},
-        {name: 'blog',url: '/home4'},
-        {name: 'support',url: '/home5'},
+        {name: 'home',url: '/'},
+        {name: 'about us',url: '/'},
+        {name: 'menu',url: '/', children: [{name: 'cate1', url: '/cate1'}, {name: 'cate2', url: '/cate2'}]},
+        {name: 'blog',url: '/'},
+        {name: 'support',url: '/'},
       ]
     }
   }
